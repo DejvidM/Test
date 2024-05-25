@@ -1,0 +1,21 @@
+@keyframes popupGrow {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.popup-animate {
+    animation: popupGrow 0.3s ease;
+}
+
+td {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
